@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.logo{
+    width: 100px;
+    height: 30px;
+
+}
+
+.nav-links{
+    display: flex;
+}
+
+.nav-links li{
+    list-style-type: none;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    margin: 0 10px ;
+}
+
+.show{
+    width: 100vw;
+    height:  100vh;
+    background-image: url("https://raw.githubusercontent.com/swwayam/tesla/main/public/images/model-s.jpg");
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
