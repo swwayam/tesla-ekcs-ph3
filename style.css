@@ -97,6 +97,31 @@ li{
 }
 
 
+@media (max-width: 1020px){
+    .none{
+        display: none;
+    }
+}
+
+@media (max-width:720px){
+    .btns{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .btn{
+        margin-top: 10px;
+    }
+}
+
+
+@media (max-width: 520px){
+    .logo{
+        width: 80px;
+        height: 25px;
+    }
+}
+
 
 @keyframes upDown {
     0%, 20%,50%, 80%,100%{
